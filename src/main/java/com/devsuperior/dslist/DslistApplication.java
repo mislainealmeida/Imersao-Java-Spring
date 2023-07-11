@@ -1,0 +1,18 @@
+package com.devsuperior.dslist;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.Collections;
+
+@SpringBootApplication
+public class DslistApplication {
+
+	public static void main(String[] args) {
+
+		SpringApplication app = new SpringApplication( DslistApplication.class);
+		app.setDefaultProperties(Collections.singletonMap("server.port", "8081"));
+		app.run(args);
+	}
+
+}
