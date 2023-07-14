@@ -43,7 +43,7 @@ public class Game{
     }
 
     public void setId(Long id) {
-        id = id;
+        this.id = id;
     }
 
     public String getTitle() {

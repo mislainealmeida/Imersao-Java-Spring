@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 
-public interface GameRespository extends JpaRepository <Game, Long>{
+public interface GameRepository extends JpaRepository <Game, Long>{
 
     // para consulta SQL
     @Query(nativeQuery = true, value = """

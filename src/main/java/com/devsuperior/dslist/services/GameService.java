@@ -4,7 +4,7 @@ import com.devsuperior.dslist.dto.GameDTO;
 import com.devsuperior.dslist.dto.GameMinDTO;
 import com.devsuperior.dslist.entities.Game;
 import com.devsuperior.dslist.projections.GameMinProjection;
-import com.devsuperior.dslist.repositories.GameRespository;
+import com.devsuperior.dslist.repositories.GameRepository;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,7 +14,7 @@ import java.util.List;
 @Service //registra como um componente do sistema
 public class GameService {
     @Autowired
-    private GameRespository gameRespository;// injetando Repository no Service.
+    private GameRepository gameRespository;// injetando Repository no Service.
     @Transactional(readOnly = true)
     public GameDTO findById(Long id){
         Game result = gameRespository.findById(id).get();
