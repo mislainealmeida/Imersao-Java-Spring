@@ -1,7 +1,7 @@
 # Intensivão Java com Spring
 
 ## Visão Geral
-Projeto criado durante o Intensivão de Spring do prof. Nélio Alves
+Projeto criado durante o Intensivão de Spring do Dev Superior, ministrado pelo prof. Nélio Alves. 
 
 ## Tecnologias utilizadas
 - Spring Boot
@@ -9,5 +9,3 @@ Projeto criado durante o Intensivão de Spring do prof. Nélio Alves
 - H2 Database
 - PostgreSQL Database
 
-## Créditos e Referências
-Este projeto foi desenvolvido como parte do Intensivão Spring do DevSuperior, ministrado por Nélio Alves. Todo o código, estrutura e conceitos são creditados ao curso.
